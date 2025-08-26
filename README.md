@@ -6,7 +6,7 @@ This is a simple and visually appealing frontend web project that allows custome
 ## 🚀 Features
 - Modern and responsive user interface
 - Product display section
-- "Add to Cart" functionality
+- Each to buy now functionality
 - Smooth navigation and interaction
 
 ## 🛠️ Tech Stack
