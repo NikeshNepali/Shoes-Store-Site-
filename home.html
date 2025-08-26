@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headings">
+        <div class="head-logo">
+            <img src="img/sneakers.png" alt="Sneakers" height="26px" width="140px">
+            <div id="search-bar">
+                <input id="typehere" type="text" placeholder="search">
+                <img id="GetInfo" src="img/search.png" alt="Search" height="20px" width="20px">
+            </div>
+            <h4 class="offer">Limited Offer!</h4>
+        </div>
+        <nav class="header-nav">
+            <ul class="Sneakers-name">
+                <li class="shoes">Air Force</li>
+                <li class="shoes">Jordan</li>
+                <li class="shoes">Blazer</li>
+                <li class="shoes">Crater</li>
+                <li class="shoes">Hippie</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="slider">
+        <div class="sliderwrapper">
+            <div class="oneSlider">
+                <img class="nikeShoes" src="img/air.png" alt="Nike Air">
+                <div class="airBg"></div>
+                <h1 class="ShoesName">AIR FORCE<br>NEW<br>SEASON</h1>
+                <h2 class="shoesPrice">$119</h2>
+                <a href="#nik">
+                    <button class="purchase">BUY NOW!</button>
+                </a>                
+            </div>
+            <div class="oneSlider">
+                <img class="nikeShoes" src="img/jordan.png" alt="Nike Air">
+                <div class="airBg"></div>
+                <h1 class="ShoesName">JORDAN<br>NEW<br>SEASON</h1>
+                <h2 class="shoesPrice">$119</h2>
+                <a href="#nik">
+                    <button class="purchase">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="oneSlider">
+                <img class="nikeShoes" src="img/blazer.png" alt="Nike Air">
+                <div class="airBg"></div>
+                <h1 class="ShoesName">BLAZER<br>NEW<br>SEASON</h1>
+                <h2 class="shoesPrice">$119</h2>
+                <a href="#nik">
+                    <button class="purchase">BUY NOW!</button>
+                </a>
+                
+            </div>
+            <div class="oneSlider">
+                <img class="nikeShoes" src="img/crater.png" alt="Nike Air">
+                <div class="airBg"></div>
+                <h1 class="ShoesName">CRATER<br>NEW<br>SEASON</h1>
+                <h2 class="shoesPrice">$119</h2>
+                <a href="#nik">
+                    <button class="purchase">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="oneSlider">
+                <img class="nikeShoes" src="img/hippie.png" alt="Nike Air">
+                <div class="airBg"></div>
+                <h1 class="ShoesName">HIPPIE<br>NEW<br>SEASON</h1>
+                <h2 class="shoesPrice">$119</h2>
+                <a href="#nik">
+                    <button class="purchase">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </main>
+    <div class="info-box">
+        <div class="info-items">
+            <img src="img/shipping.png" alt="shipping" height="100px" width="100px">
+            <h4 class="shipping">FREE SHIPPING</h4>
+            <p class="places">Free worldwide shipping on all orders.</p>
+        </div>
+        <div class="info-items">
+            <img src="img/return.png" alt="return" height="100px" width="100px">
+            <h4 class="shipping">30 DAYS RETURN</h4>
+            <p class="places">No question refund and easy refund in 14 days.</p>
+        </div>
+        <div class="info-items">
+            <img src="img/gift.png" alt="gift" height="100px" width="100px">
+            <h4 class="shipping">GIFT CARDS</h4>
+            <p class="places">Buy gift cards and use coupon codes easily.</p>
+        </div>
+        <div class="info-items">
+            <img src="img/contact.png" alt="contact" height="100px" width="100px">
+            <h4 class="shipping">CONTACT US</h4>
+            <p class="places">Keep in touch via email and support system.</p>
+        </div>
+    </div>
+    <div class="Poption">
+        <div class="blur">
+            <p class="close">X</p>
+            <Form class="form-info">
+                <h1 class="personalinfo">Personal Information</h1>
+                <label class="titles">Username And Surname</label>
+                <input id="usernames" type="text" placeholder="Your Name" maxlength="30" autocomplete="off">
+                <label class="titles">Phone Number</label>
+                <input class="numbers" type="tel" placeholder="(+977) 9812345678" maxlength="10" required>
+                <label class="titles">Address</label>
+                <input class="addressSt" type="text" placeholder="Sagbari.St 3-901" required>
+                <h2 class="cards-h2">Card Information</h2>
+                <div class="cards-img">
+                    <img src="img/master.png" height="50px" width="50px">
+                    <img src="img/visa.png" height="50px" width="50px">
+                </div>
+                <input class="cards-Number" type="number" placeholder="Card Number" maxlength="16" required>
+                <div class="cards-details">
+                    <input type="number" placeholder="mm" maxlength="2" min="1" max="12">
+                    <input type="number" placeholder="yyyy" maxlength="4" min="1975" max="2024">
+                    <input type="password" placeholder="cvv" maxlength="6" autocomplete="off">
+                </div>
+                <button type="submit" class="check-out">Check Out!</button>
+            </Form>
+            
+        </div>
+        <div class="sliderwrapper2" id="nik">
+            <div class="twoSlider">
+                <img class="nikeShoes1" src="img/air.png" alt="Nike Air">
+                <div class="sDetails">
+                    <h1 class="ShoesName1">AIR FORCE</h1>
+                    <h4 class="price">$199</h4>
+                    <p class="details"> Lorem ipsum dolor sit amet consectetur adipisicing elit. In possimus, nobis corrupti molestias numquam iure vel veritatis aperiam.</p>
+                    <div class="Color-buttons">
+                        <button class="black"></button>
+                        <button class="blue"></button>
+                    </div>
+                    <div class="size-buttons">
+                        <button class="size">41</button>
+                        <button class="size">42</button>
+                        <button class="size">43</button>
+                    </div>
+                    <button class="purchase1">BUY NOW!</button>
+                </div>
+            </div>
+            <div class="twoSlider">
+                <img class="nikeShoes1" src="img/jordan.png" alt="JORDAN">
+                <div class="sDetails">
+                    <h1 class="ShoesName1">JORDAN</h1>
+                    <h4 class="price">$299</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In possimus, nobis corrupti molestias numquam iure vel veritatis aperiam.</p>
+                    <div class="Color-buttons">
+                        <button class="black"></button>
+                        <button class="blue"></button>
+                    </div>
+                    <div class="size-buttons">
+                        <button class="size">41</button>
+                        <button class="size">42</button>
+                        <button class="size">43</button>
+                    </div>
+                    <button class="purchase1">BUY NOW!</button>
+                </div>
+            </div>
+            <div class="twoSlider">
+                <img class="nikeShoes1" src="img/blazer.png" alt="Blazer">
+                <div class="sDetails">
+                    <h1 class="ShoesName1">BLAZER</h1>
+                    <h4 class="price">$199</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In possimus, nobis corrupti molestias numquam iure vel veritatis aperiam.</p>
+                    <div class="Color-buttons">
+                        <button class="black"></button>
+                        <button class="blue"></button>
+                    </div>
+                    <div class="size-buttons">
+                        <button class="size">41</button>
+                        <button class="size">42</button>
+                        <button class="size">43</button>
+                    </div>
+                    <button class="purchase1">BUY NOW!</button>
+                </div>
+            </div>
+            <div class="twoSlider">
+                <img class="nikeShoes1" src="img/crater.png" alt="Nike Air">
+                <div class="sDetails">
+                    <h1 class="ShoesName1">CRATER</h1>
+                    <h4 class="price">$199</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In possimus, nobis corrupti molestias numquam iure vel veritatis aperiam.</p>
+                    <div class="Color-buttons">
+                        <button class="black"></button>
+                        <button class="blue"></button>
+                    </div>
+                    <div class="size-buttons">
+                        <button class="size">41</button>
+                        <button class="size">42</button>
+                        <button class="size">43</button>
+                    </div>
+                    <button class="purchase1">BUY NOW!</button>
+                </div>
+            </div>
+            <div class="twoSlider">
+                <img class="nikeShoes1" src="img/hippie.png" alt="Nike Air">
+                <div class="sDetails">
+                    <h1 class="ShoesName1">HIPPIE</h1>
+                    <h4 class="price">$199</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In possimus, nobis corrupti molestias numquam iure vel veritatis aperiam.</p>
+                    <div class="Color-buttons">
+                        <button class="black"></button>
+                        <button class="blue"></button>
+                    </div>
+                    <div class="size-buttons">
+                        <button class="size">41</button>
+                        <button class="size">42</button>
+                        <button class="size">43</button>
+                    </div>
+                    <button class="purchase1">BUY NOW!</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="designs">
+        <div class="person1">
+            <h2 class="oneP">Be Yourself!</h2>
+            <img class="per1" src="https://images.unsplash.com/photo-1517583106829-61e14fcbddf5?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+        <div class="person1">
+            <img class="per1" src="https://images.unsplash.com/photo-1556906781-9a412961c28c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <h2 class="oneP2">This is the First day of your new life</h2>
+        </div>
+        <div class="person1">
+            <h2 class="oneP">Just Do It!</h2>
+            <img class="per1" src="https://images.unsplash.com/photo-1513188732907-5f732b831ca8?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+    </div>
+
+    <div class="end">
+        <div class="one">
+            <img class="endImg" src="https://images.unsplash.com/photo-1516810714657-e654b97f1d80?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image">
+        </div>
+        <div class="one">
+            <h2 class="t">Winter New Arrivals</h2>
+            <h1 class="t1">New Seasons</h1>
+            <h1 class="t2">New Collections</h1>
+            <div class="press">
+                <button class="tb">Choose Your Style</button>
+            </div>
+            
+        </div>
+        <div class="one">
+            <img class="endImg" src="https://images.unsplash.com/photo-1585843736857-bd7438e55c67?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image">
+        </div>
+    </div>
+
+    <footer class="foot">
+        <div class="About-Us">
+            <h2 class="foot-h2">About Us</h2>
+            <ul class="lists">
+                <li>Company</li>
+                <li>Contact</li>
+                <li>Careers</li>
+                <li>Affiliates</li>
+                <li>Stores</li>
+            </ul>
+        </div>
+        <div class="Useful-Links">
+            <h2 class="foot-h2">Useful Links</h2>
+            <ul class="lists">
+                <li>Support</li>
+                <li>Refund</li>
+                <li>FAQ</li>
+                <li>Feedback</li>
+                <li>Stories</li>
+            </ul>
+        </div>
+        <div class="products">
+            <h2 class="foot-h2">Products</h2>
+            <ul class="lists">
+                <li>Air Max</li>
+                <li>Air Jordan</li>
+                <li>Blazer</li>
+                <li>Crater</li>
+                <li>Hippie</li>
+            </ul>
+        </div>
+       
+
+    </footer>
+
+    <div class="Contact">
+        <div class="settler">
+            <h4>Subscribe to our newSletter</h4>
+            <div class="inputs">
+                <input class="p" type="email" placeholder="abc@gmail.com">
+                <button class="p2">Join!</button>
+            </div>
+        </div>
+        <div class="settler">
+            <h4>Follow Us</h4>
+            <div class="inputs">
+                <img src="img/facebook.png" height="20px" width="20px">
+                <img src="img/twitter.png" height="20px" width="20px">
+                <img src="img/instagram.png" height="20px" width="20px">
+                <img src="img/whatsapp.png" height="20px" width="20px">
+            </div>
+        </div>
+        <p class="last">&copy;NikDev.AllRightsReserved 2024</p>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

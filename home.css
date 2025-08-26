@@ -1,0 +1,771 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+}
+
+/* Headings Edit */
+
+.headings{
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+}
+
+.head-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-bar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 26px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#typehere{
+    padding: 10px;
+    /* border-radius: 10px; */
+    border: none;
+    background-color: gray;
+}
+
+#typehere::placeholder{
+    color: white;
+}
+
+.offer{
+    text-decoration: 3px underline green;
+}
+
+.Sneakers-name{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 1.5rem;
+    list-style-type: none;
+    color: lightgray;
+}
+
+.shoes{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.shoes:nth-child(1){
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* Slider Edit */
+
+.slider{
+    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
+}
+
+.sliderwrapper{
+    display: flex;
+    width: 500vw;
+    /* transition: all 1s ease-in-out; */
+}
+
+.oneSlider{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    position: relative;
+}
+
+.nikeShoes{
+    z-index: 1;
+}
+
+.airBg{
+    position: absolute;
+    background-color: yellow;
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+}
+
+.ShoesName{
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    top: 10%;
+    right: 10%;
+    color: white;
+    z-index: 1;
+}
+
+.shoesPrice{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    top: 10%;
+    left: 10%;
+    color: white;
+    border: 1px solid gray;
+    z-index: 1;
+}
+
+.purchase{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    top: 45%;
+    right: 10%;
+    color: white;
+    background-color: black;
+    z-index: 1;
+}
+.purchase:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    z-index: 1;
+}
+
+.oneSlider:nth-child(1) .airBg{
+    background-color: #369e62;
+}
+.oneSlider:nth-child(2) .airBg{
+    background-color: rebeccapurple;
+}
+.oneSlider:nth-child(3) .airBg{
+    background-color: teal;
+}
+.oneSlider:nth-child(4) .airBg{
+    background-color: cornflowerblue;
+}
+.oneSlider:nth-child(5) .airBg{
+    background-color: rgb(124, 115, 80);
+}
+
+.oneSlider:nth-child(1) .shoesPrice{
+    color: #369e62;
+}
+.oneSlider:nth-child(2) .shoesPrice{
+    color: white;
+}
+.oneSlider:nth-child(3) .shoesPrice{
+    color: teal;
+}
+.oneSlider:nth-child(4) .shoesPrice{
+    color: cornflowerblue;
+}
+.oneSlider:nth-child(5) .shoesPrice{
+    color: rgb(124, 115, 80);
+}
+
+/* Info box edit */
+
+.info-box{
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.info-items{
+    height: 220px;
+    width: 150px;
+}
+
+.shipping{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.places{
+    font-weight: 400;
+    color: gray;
+}
+
+/* Next Page */
+
+.Poption{
+    position: relative;
+    background-color: gainsboro;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    overflow: hidden;
+}
+
+.sliderwrapper2{
+    display: flex;
+    width: 500vw;
+}
+
+.twoSlider{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sDetails{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+    height: 450px;
+    width: 400px;
+    position: relative;
+}
+
+.nikeShoes1{
+    padding: 20px;
+}
+
+.ShoesName1{
+    font-size: 4rem;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.details{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 400;
+}
+
+.Color-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 90px;
+}
+
+.black{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    border: none;
+}
+.blue{
+    background-color: darkblue;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.size-buttons{
+    width: 170px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.size{
+    font-size: 1.2rem;
+    font-weight: 100;
+    height: 30px;
+    width: 50px;
+}
+
+.size:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.purchase1{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+}
+
+.purchase1:hover{
+    cursor: pointer;
+}
+
+.twoSlider:nth-child(1) .ShoesName1{
+    color: #369e62;
+}
+.twoSlider:nth-child(2) .ShoesName1{
+    color: rebeccapurple;
+}
+.twoSlider:nth-child(3) .ShoesName1{
+    color: teal;
+}
+.twoSlider:nth-child(4) .ShoesName1{
+    color: cornflowerblue;
+}
+.twoSlider:nth-child(5) .ShoesName1{
+    color: rgb(124, 115, 80);
+}
+
+.twoSlider:nth-child(1) .black{
+    background-color: black;
+}
+.twoSlider:nth-child(2) .black{
+    background-color: gray;
+}
+.twoSlider:nth-child(3) .black{
+    background-color: white;
+}
+.twoSlider:nth-child(4) .black{
+    background-color: black;
+}
+.twoSlider:nth-child(5) .black{
+    background-color: darkgray;
+}
+
+.twoSlider:nth-child(1) .blue{
+    background-color: darkblue;
+}
+.twoSlider:nth-child(2) .blue{
+    background-color: darkgreen;
+}
+.twoSlider:nth-child(3) .blue{
+    background-color: darkgreen;
+}
+.twoSlider:nth-child(4) .blue{
+    background-color: whitesmoke;
+}
+.twoSlider:nth-child(5) .blue{
+    background-color: grey;
+}
+
+
+/* Building a form */
+
+.blur{
+    visibility: hidden;
+    position: absolute;
+    right: -50%;
+    left: -50%;
+    transform: translate(-50%,30%);
+    background-color: white;
+    height: 450px;
+    width: 550px;
+    right: 50%;
+    left: 50%;
+    z-index: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.close{
+    align-self: self-end;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.personalinfo ,.cards-h2{
+    color: rgba(128, 128, 128, 0.381);
+}
+
+.form-info{
+    display: flex;
+    flex-flow: column;
+    margin: 20px 50px;
+    margin-top: 0;
+}
+
+.form-info input{
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.titles{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.cards-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.check-out{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background-color: #369e62;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+.close{
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: gray;
+    padding: 4px;
+    color: white;
+}
+
+/* Image page */
+
+.designs{
+    padding: 50px;
+    height: 100vh;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.person1{
+    flex: 1;
+    padding: 50px;
+}
+
+.per1{  
+    width: 100%;
+}
+
+.oneP{
+    margin-bottom: 20px;
+}
+.oneP2{
+    margin-top: 20px;
+}
+
+
+
+/* End Page */
+
+.end{
+    display: flex;
+}
+
+.one{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 40px;
+    background-color: black;
+    color: white;
+}
+.endImg{
+    width: 100%;
+    height: 550px;
+    
+}
+
+.t{
+    font-size: 1.5rem;
+}
+
+.t1{
+    font-size: 3rem;
+}
+.t2{
+    font-size: 3rem;
+}
+
+.tb{
+    width: 200px;
+    padding: 15px;
+    font-size: 1rem;
+    place-content: center;
+    font-weight: 700;
+}
+
+
+/* Footer */
+.foot{
+    margin: 60px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.About-Us,.Useful-Links,.products{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;    
+}
+
+.lists{
+    display: flex; 
+    flex-flow: column;
+    list-style-type: none;
+    color: gray;
+    gap: 5px;
+}
+
+.Contact{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.settler{
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+
+.p{
+    height: 30px;
+    font-size: 1rem;
+}
+.p2{
+    padding: 2px;
+    height: 30px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.inputs{
+    display: flex;
+    gap: 5px;
+}
+
+.last{
+    font-weight: 300;
+}
+
+
+@media screen and (max-width:600px) {
+    .headings{
+        padding: 10px;
+    }
+
+    #search-bar{
+        display: none;
+    }
+
+    .Sneakers-name{
+        gap: 30px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .slider{
+        clip-path: none;
+    }
+
+    .nikeShoes{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .airBg{
+        height: 100%;
+        width: 100%;
+    }
+
+    .ShoesName{
+        gap: 40px;
+        line-height: 50px;
+        font-size: 19px;
+        letter-spacing: 3px;
+        right: 0%;
+    }
+
+    .shoesPrice{
+        font-size: 30px;
+        background-color: wheat;
+        top: 0;
+        left: 0;
+    }
+
+    .purchase{
+        top: unset;
+        bottom: 0;
+        right: 0; 
+    }
+
+    .info-box{
+        margin: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Poption{
+        clip-path: none;
+    }
+
+    .nikeShoes1{
+        padding: 5px;
+        width: 100%;
+    }
+
+    .twoSlider{
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .sDetails{
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .blur{
+        width: 100%;
+    }
+
+    .designs{
+        display: none;
+    }
+
+    .end{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .one{
+        width: 100%;
+    }
+    .one:nth-child(2){
+        padding: 20px;
+    }
+
+    .foot{
+        margin: 10px;
+        flex-direction: row;
+    }
+
+    .Contact{
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+}
+@media screen and (max-width:1200px){
+
+    .headings{
+        padding: 10px 20px;
+    }
+
+    .Sneakers-name{
+        padding: 0;
+        gap: 30px;
+    }
+
+    .nikeShoes{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .airBg{
+        height: 100%;
+        width: 100%;
+    }
+
+    .ShoesName{
+        font-size: 19px;
+        right: 5%;
+        line-height: 60px;
+    }
+
+    .shoesPrice{
+        font-size: 50px;
+        top: 0;
+        left: 0;
+    }
+
+    .purchase{
+        right: 0%;
+    }
+
+    .Poption{
+        clip-path: none;
+    }
+
+    .nikeShoes1{
+        padding: 5px;
+        width: 100%;
+    }
+
+    .twoSlider{
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .sDetails{
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .blur{
+        width: 100%;
+    }
+
+    .designs{
+        display: none;
+    }
+
+    .end{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .one{
+        width: 100%;
+    }
+    .one:nth-child(2){
+        padding: 20px;
+    }
+
+    .foot{
+        margin: 10px;
+        flex-direction: row;
+    }
+
+    .Contact{
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+} 
