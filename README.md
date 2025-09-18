@@ -39,5 +39,7 @@ This is ideal for demonstrating basic **UI/UX design principles** in a web proje
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a4ab88ba-0b32-485d-8700-1f4d50ddeaa1" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5f7687cf-d7af-4ee7-888b-2b0dd28bdcca" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5137d41e-e17a-4f8c-9540-a0da75db2093" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d43dfca0-422e-4f1b-995a-54b3269ae2d0" />
+<img width="700" height="140" alt="image" src="https://github.com/user-attachments/assets/c988a60c-54ef-4472-b509-2f744a734f09" />
 
 
