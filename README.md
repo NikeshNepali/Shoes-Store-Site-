@@ -36,6 +36,7 @@ This is ideal for demonstrating basic **UI/UX design principles** in a web proje
 ## 📸 Screenshots
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a51a7f44-f316-4482-bdec-04290319e731" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/82a8fa00-ef82-466c-a952-a24baae94f50" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/029cab16-6378-4729-8f3e-1fd04f7a3a6d" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a4ab88ba-0b32-485d-8700-1f4d50ddeaa1" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5f7687cf-d7af-4ee7-888b-2b0dd28bdcca" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5137d41e-e17a-4f8c-9540-a0da75db2093" />
