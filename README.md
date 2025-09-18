@@ -34,10 +34,10 @@ This is ideal for demonstrating basic **UI/UX design principles** in a web proje
 - │── script.js # JavaScript file for interactivity
 
 ## 📸 Screenshots
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/c6149f2a-3a3c-4a10-9735-9bfda724ef29" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/ca0a0aeb-a643-477d-bdac-25b599e963a4" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d66bbc03-b65c-44ba-bbc3-56c0db175d57" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/cb375aab-4eed-4ce3-b642-16bc0800a00a" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/b85ff451-50d8-4805-8ec3-8b41c6ecc0b3" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/069c9f37-00a5-4495-8281-dbc88b4ae0e5" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/48455887-c677-426e-a98c-3e5a79f532e2" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a51a7f44-f316-4482-bdec-04290319e731" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/82a8fa00-ef82-466c-a952-a24baae94f50" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/a4ab88ba-0b32-485d-8700-1f4d50ddeaa1" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5f7687cf-d7af-4ee7-888b-2b0dd28bdcca" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/5137d41e-e17a-4f8c-9540-a0da75db2093" />
+
+
